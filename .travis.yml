@@ -119,6 +119,7 @@ env:
 matrix:
   allow_failures:
     - rvm: rbx-3
+    - rvm: 2.7
     - env: SCRIPT='script/parallel-tests unstable'
   exclude:
     - rvm: 2.6
